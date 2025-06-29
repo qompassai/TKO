@@ -1,0 +1,22 @@
+# /qompassai/tko/pyproject.toml
+# Qompass AI Diver TKO Model Context Protocol (MCP) Tools
+# Copyright (C) 2025 Qompass AI, All rights reserved
+#########################################################
+
+[project]
+name = "mcp-tools"
+version = "0.1.0"
+description = "Qompass AI TKO: MCP server tools"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["mcp[cli]"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+select = ["E", "F", "I", "UP", "A"]
+ignore = ["D203"]
+
+[tool.black]
+line-length = 88
+target-version = ["py313"]
