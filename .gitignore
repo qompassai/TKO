@@ -1,0 +1,6 @@
+# /qompassai/tko/.gitignore
+# Qompass AI Diver TKO Gitignore
+# Copyright (C) 2025 Qompass AI, All rights reserved
+########################################################
+/src/
+/servers/
