@@ -1,0 +1,22 @@
+{
+	"plugins": ["@astrojs/prettier-plugin", "prettier-plugin-mdx"],
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"printWidth": 100,
+	"tabWidth": 2,
+	"overrides": [
+		{
+			"files": "*.astro",
+			"options": {
+				"parser": "astro"
+			}
+		},
+		{
+			"files": "*.mdx",
+			"options": {
+				"parser": "mdx"
+			}
+		}
+	]
+}
