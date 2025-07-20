@@ -14,7 +14,7 @@
 	"files": [],
 	"scripts": {
 		"build": "npm run build --workspaces",
-		"deploy": "gh-pages -d dist",
+		"deploy": "npm run deploy",
 		"watch": "npm run watch --workspaces",
 		"publish-all": "npm publish --workspaces --access public",
 		"link-all": "npm link --workspaces"
