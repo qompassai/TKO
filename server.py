@@ -2,10 +2,8 @@
 # Qompass AI Diver TKO Model Context Protocol (MCP) Tools
 # Copyright (C) 2025 Qompass AI, All rights reserved
 #########################################################
-
 import shlex
 import subprocess
-
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("Qompass AI TKO: MCP server tools")

@@ -1,4 +1,5 @@
 #!/usr/bin/env uv run --script
+# /qompassai/tko/scripts/release.py
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
@@ -190,7 +191,6 @@ def generate_version() -> int:
 @click.option("--pypi", is_flag=True, default=False)
 @click.argument("git_hash", type=GIT_HASH)
 def generate_matrix(directory: Path, git_hash: GitHash, pypi: bool, npm: bool) -> int:
-    # Detect package type
     path = directory.resolve(strict=True)
     version = gen_version()
 
