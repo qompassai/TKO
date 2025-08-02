@@ -1,10 +1,15 @@
-// deno.jsonc
-// Qompass AI - [Add description here]
+// /qompassai/tko/deno.jscon
+// Qompass AI TKO Deno JSONC
 // Copyright (C) 2025 Qompass AI, All rights reserved
 // ----------------------------------------
 {
+	"name": "tko-paper",
 	"tasks": {
-		"build-paper": "run --allow-read --allow-write scripts/build-paper.ts",
-		"serve-paper": "run --allow-read --allow-net scripts/server.ts"
+		"dev": "run --allow-read --allow-net src/main.ts",
+		"test": "test main_test.ts",
+		"serve-public": "run --allow-read --allow-net scripts/server.ts"
+	},
+	"fmt": {
+		"exclude": ["dist", "node_modules"]
 	}
 }
