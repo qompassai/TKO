@@ -1,3 +1,7 @@
+// /qompassai/tko/package.jsonc
+// Qompass AI TKO Package Config
+// Copyright (C) 2025 Qompass AI, All rights reserved
+/////////////////////////////////////////////////////
 {
 	"name": "@modelcontextprotocol/servers",
 	"private": true,
