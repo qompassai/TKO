@@ -1,0 +1,10 @@
+// deno.jsonc
+// Qompass AI - [Add description here]
+// Copyright (C) 2025 Qompass AI, All rights reserved
+// ----------------------------------------
+{
+	"tasks": {
+		"build-paper": "run --allow-read --allow-write scripts/build-paper.ts",
+		"serve-paper": "run --allow-read --allow-net scripts/server.ts"
+	}
+}

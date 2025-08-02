@@ -5,8 +5,8 @@
 {
 	"compilerOptions": {
 		"target": "ES2022",
-		"module": "Node16",
-		"moduleResolution": "Node16",
+		"module": "Node24",
+		"moduleResolution": "bundler",
 		"strict": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
