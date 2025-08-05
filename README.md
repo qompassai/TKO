@@ -6,9 +6,6 @@
 
 ## Transforming Knowledge Ontology: The Model Context Protocol
 
-
-
-
 Background
 
 The convergence of generative artificial intelligence (genAI), quantum computing, and advanced cryptographic protocols

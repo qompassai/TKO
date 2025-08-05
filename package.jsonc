@@ -1,49 +1,43 @@
-// /qompassai/tko/package.jsonc
-// Qompass AI TKO Package Config
-// Copyright (C) 2025 Qompass AI, All rights reserved
-/////////////////////////////////////////////////////
 {
-	"name": "@modelcontextprotocol/servers",
-	"private": true,
-	"version": "0.6.2",
-	"description": "Model Context Protocol servers",
-	"license": "MIT",
-	"author": "Anthropic, PBC (https://anthropic.com)",
-	"homepage": "https://modelcontextprotocol.io",
-	"bugs": "https://github.com/modelcontextprotocol/servers/issues",
+	"name": "astro",
 	"type": "module",
-	"workspaces": ["src/*"],
-	"files": [],
+	"version": "0.0.1",
 	"scripts": {
 		"dev": "astro dev",
-		"deploy": "astro build && gh-pages -d dist",
-		"build": "npm run build --workspaces",
-		"watch": "npm run watch --workspaces",
-		"publish-all": "npm publish --workspaces --access public",
-		"link-all": "npm link --workspaces"
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview --host",
+		"astro": "astro"
 	},
 	"dependencies": {
-		"@modelcontextprotocol/server-brave-search": "*",
-		"@modelcontextprotocol/server-everart": "*",
-		"@modelcontextprotocol/server-everything": "*",
-		"@modelcontextprotocol/server-filesystem": "*",
-		"@modelcontextprotocol/server-gdrive": "*",
-		"@modelcontextprotocol/server-memory": "*",
-		"@modelcontextprotocol/server-postgres": "*",
-		"@modelcontextprotocol/server-puppeteer": "*",
-		"@modelcontextprotocol/server-sequential-thinking": "*",
-		"@modelcontextprotocol/server-slack": "*"
+		"@astrojs/check": "^0.9.4",
+		"@astrojs/mdx": "^4.1.0",
+		"@astrojs/react": "^4.2.1",
+		"@astrojs/svelte": "^7.0.5",
+		"@astrojs/tailwind": "^6.0.0",
+		"@iconify-json/academicons": "^1.1.14",
+		"@iconify-json/ri": "^1.2.3",
+		"@radix-ui/react-slot": "^1.1.0",
+		"@react-three/drei": "^9.107.1",
+		"@react-three/fiber": "^8.16.8",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"astro": "^5.4.1",
+		"astro-icon": "^1.1.0",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"katex": "^0.16.10",
+		"lucide-react": "^0.396.0",
+		"react": "^18.3.1",
+		"react-compare-slider": "^3.1.0",
+		"react-dom": "^18.3.1",
+		"svelte": "^5.18.0",
+		"tailwind-merge": "^2.3.0",
+		"tailwindcss": "^3.4.4",
+		"tailwindcss-animate": "^1.0.7",
+		"typescript": "^5.7.3"
 	},
 	"devDependencies": {
-		"@astrojs/mdx": "^4.3.1",
-		"@astrojs/react": "^4.3.0",
-		"@astrojs/svelte": "^7.1.0",
-		"@astrojs/tailwind": "^6.0.2",
-		"@tailwindcss/postcss": "^4.1.11",
-		"astro": "^5.12.0",
-		"astro-icon": "^1.1.5",
-		"gh-pages": "^6.3.0",
-		"postcss": "^8.5.6",
-		"tailwindcss": "^4.1.11"
+		"@tailwindcss/typography": "^0.5.15"
 	}
 }
