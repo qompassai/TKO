@@ -6,8 +6,8 @@ authors:
     given-names: "Matthew A."
     orcid: "https://orcid.org/0000-0002-0302-4812"
     affiliation: "Qompass AI"
-version: "v2026-08-31"
-date-released: "2026-08-31"
+version: "v2026-09-10"
+date-released: "2026-09-10"
 repository-code: "https://github.com/qompassai/tko"
 license: "Q-CDA-1.0"
 keywords:
@@ -17,6 +17,6 @@ keywords:
   - Post-Quantum Cryptography
   - Quantum
   - frontend
-  - javascript
-  - web
+  - typed
+  - typescript
 abstract: "Transforming Knowledge Ontology: The Model Context Protocol"
